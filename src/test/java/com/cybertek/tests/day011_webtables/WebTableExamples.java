@@ -75,6 +75,7 @@ public class WebTableExamples {
         driver.get("https://platform.utest.com/dashboard");
         driver.findElement(By.xpath("//input[@id='username']")).sendKeys(pass.username);
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys(pass.password);
+        driver.findElement(By.xpath("//input[@id='password']")).sendKeys(pass.password);
         driver.findElement(By.xpath("//button")).click();
 
 
